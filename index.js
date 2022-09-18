@@ -48,7 +48,7 @@ function attack() {
     monster.takeDamage(wizard.currentDiceScore);
     //get Html
     render()
-    
+    console.log("commit");
         if (wizard.dead) {
             endGame()
         }
